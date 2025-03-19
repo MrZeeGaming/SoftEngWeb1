@@ -1,0 +1,31 @@
+/* Add margin to prevent content from being hidden under navbar */
+body {
+    /* Adjust this value based on your navbar height */
+   height: 100vh; /* Full viewport height */
+   display: flex;
+   justify-content: center; /* Vertically center content */
+   align-items: center; /* Horizontally center content */
+   background: #dee2e2;
+}
+
+.button-container {
+   display: flex;
+   flex-direction: column; /* Align buttons vertically */
+   gap: 10px; /* Add space between buttons */
+}
+
+/* Style for the back button */
+.back-button {
+   position: absolute;
+   top: 70px; /* Distance from the top of the screen */
+   left: 10px; /* Distance from the left of the screen */
+   z-index: 10; /* Ensure it's on top of other content */
+}
+
+/* Add rounded corners to the table */
+.table {
+   border-radius: 10px; /* Rounded corners for the table */
+   overflow: hidden; /* Ensures that table content doesn't spill out of rounded corners */
+ }
+
+ 

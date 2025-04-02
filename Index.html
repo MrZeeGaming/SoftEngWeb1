@@ -7,7 +7,13 @@
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
     <link href="styles.css" rel="stylesheet" type="text/css">
+  <style>
+    .img-size {
+  width: 250px;
+  height: 250px;
+}
 
+  </style>
 </head>
 <body>
 
@@ -44,9 +50,17 @@
 
 
       <!--Buttons-->
-<div class="d-grid gap-2 col-6 mx-auto">
-  <a href="GenQr.html" class="btn btn-dark" role="button"><h1><b>Generate QR</b></h1></a>
-  <a href="CheckAttndce.html" class="btn btn-dark" role="button"><h1><b>Check Attendance</b></h1></a>
+<div class="d-grid gap-2">
+  <div>
+    <a href="" type="button" class="btn btn-light btn-lg"><img src="FaclRec.svg" alt="Facial Recognition" class="img-size"></a>
+<a href="GenQr.html" type="button" class="btn btn-light btn-lg"><img src="ic_baseline-qrcode.svg" alt="Qr Code Button" class="img-size"></a>
+  </div>
+  <div class="d-grid gap-2 col-12 mx-auto ">
+    <a href="CheckAttndce.html" class="btn btn-light btn-lg d-flex align-items-center justify-content-center" type="button">
+      <img src="ci_calendar-check.svg" alt="Icon" style="width: 40px; height: 40px; margin-right: 10px;">
+      <span style="font-size: 1.5rem;"><b>Check Attendance</b></span>
+    </a>
+  </div>
 </div>
       
 
